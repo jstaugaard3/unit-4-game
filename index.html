@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Crystal Game!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+<body>
+  
+<div class="container">
+   
+
+  <div class="jumbotron mt-3 mb-3 pb-3 pt-2 text-center text-md-left">
+      <h1 class="h1">Crystal Collector!</h1>
+  </div>
+
+
+ <!--- <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <a class="navbar-brand" href="#">Crystals Collector!</a>
+  </nav>  -->
+
+  <div class="jumbotron mt-3 mb-3 pb-3 pt-2">
+    <h1 class="h1 text-center text-md-left">Instructions</h1>
+    <hr class="my-2">
+    <p class="h6">You will be given a random number at the start of the game.</p>
+    <p class="h6">There are four crytals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p class="h6">You win the game my matching your total score to the randmom number, you lose the game if your total score goes above the random number.</p>
+    <p class="h6">The value of each crystal is hidden from you until you click on it.</p>
+    <p class="h6">Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+
+  <div class ="row mb-4 text-center">
+    <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <div class="card-header h3">
+                Your Goal:
+            </div>
+            <div class="card-body h4">
+              <span id="_numberToGuess"></span>
+            </div>
+        </div>
+      </div> <!-- End Column-->
+    <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <div class="card-header h3">
+                Your Score:
+            </div>  
+             <div class="card-body h4">
+                <span id="_totalScore"></span>
+              </div>
+        </div>
+    </div>
+  </div> <!-- End of row-->
+
+
+
+  <div class="row mx-auto">
+        <div id="crystals">
+        </div>
+  </div>
+
+  <div class ="row mt-4 mb-4 text-center">
+      <div class="col-sm-6 col-md-3">
+          <div class="card">
+              <div class="card-header h3">
+                  Wins :
+              </div>
+              <div class="card-body h4">
+                <span id="_wins"></span>
+              </div>
+          </div>
+        </div> <!-- End Column-->
+      <div class="col-sm-6 col-md-3">
+          <div class="card">
+              <div class="card-header h3">
+                  Losses :
+              </div>  
+               <div class="card-body h4">
+                  <span id="_losses"></span>
+                </div>
+          </div>
+      </div>
+    </div>
+
+</div> <!-- End Container-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+
+<!--
+  Sunday: 0.5 hours
+          1.0 hours 9:04 - 10:06
+          3:56-4:18
+-->
