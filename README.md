@@ -8,7 +8,7 @@ CrystalGame : main  Object
     losses
     counter
     totalScore
-    NewGame functin
+    NewGame function
 
 targetNumber : random
 load crystals (assign random value)
