@@ -7,8 +7,7 @@ for(var i=0; i<4; i++){
     imageCrystal.attr("data-crystalvalue", (Math.floor(Math.random() *11)+1));
     imageCrystal.attr("data-crystalnumber", i);
     $("#crystals").append(imageCrystal);
-}
-
+} 
 
 var txtNumberToGuess = document.getElementById("_numberToGuess");
 var txtwins = document.getElementById("_wins");
